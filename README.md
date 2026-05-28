@@ -43,27 +43,32 @@ This is an open-source repository for documenting and showcasing the learning pr
 
 ```text
 .
-├──
-labs_in_jupyter_notebook/                        # 课程实验与作业 / Course Labs & Assignments (Updated)
+├── labs_in_jupyter_notebook/                # 课程实验与作业 / Course Labs & Assignments
 │   ├── Advanced_Learning_Algorithm/
-│   │   ├── hw1/                 # 神经网络作业
-│   │   └── lab1/                # 神经元与层实验
+│   │   ├── hw1/                             # 神经网络作业（含 autils.py、public_tests.py 等）
+│   │   ├── hw2/
+│   │   ├── hw3/
+│   │   ├── lab1/
+│   │   └── lab2/
 │   └── Supervised_Machine_Learning/
-│       ├── hw2/                 # 线性回归作业
-│       ├── hw3/                 # 逻辑回归作业
-│       └── lab1/2/3/            # 监督学习基础实验
-├── notes/                       # 核心概念笔记与资源 / Study Notes & Assets (Ongoing )
-│   ├── assets/                  # 笔记中使用的图片资源
-│   ├── 01_Supervised_Machine_Learning.md
-│   └── 02_Advanced_Learning_Algorithms.md
-├── examples/                    # 自主实现的代码示例 / Self-implemented Examples (Adding...)
-│   ├── Linear.py                # 线性回归实现
-│   ├── Logistic.py              # 逻辑回归实现
-│   ├── SimpleNN.py              # 简单神经网络实现
-│   └── regularized.py           # 正则化实现
-└── setup/                       # 环境配置指南 / Environment Setup
-    ├── requirements.txt
-    └── 环境配置.md
+│       ├── hw2/                             # 线性回归作业
+│       ├── hw3/                             # 逻辑回归作业
+│       ├── lab1/
+│       ├── lab2/
+│       └── lab3/
+├── notes/                                   # 核心概念笔记与资源 / Study Notes & Assets
+│   ├── assets/                              # 笔记中使用的图片资源
+│   ├── 环境配置.md
+│   ├── 机器学习Machine learning入门.md
+│   └── Advanced_Learning_Algorithm.md
+├── examples/                                # 自主实现的代码示例 / Self-implemented Examples
+│   ├── Linear.py                            # 线性回归实现
+│   ├── Logistic.py                          # 逻辑回归实现
+│   ├── SimpleNN.py                          # 简单神经网络实现
+│   └── regularized.py                       # 正则化实现
+└── setup/                                   # 环境配置指南 / Environment Setup
+   ├── requirements.txt
+   └── 环境配置.md
 ```
 
 ##  快速开始 / Quick Start
